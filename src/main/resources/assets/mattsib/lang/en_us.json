@@ -4,7 +4,17 @@
   "block.mattsib.copper_bricks": "Copper Bricks",
   "block.mattsib.ender_pearl_block": "Ender Pearl Block",
   "block.mattsib.rotten_flesh_block": "Rotten Flesh Block",
+  "block.mattsib.netherrack_bricks": "Netherrack Bricks",
 
+  "block.mattsib.blackstone_brick_stairs": "Blackstone Bricks Stairs",
+  "block.mattsib.blackstone_bricks_slab": "Blackstone Bricks Slab",
+  "block.mattsib.blackstone_bricks_button": "Blackstone Bricks Button",
+  "block.mattsib.blackstone_bricks_wall": "Blackstone Bricks Wall",
 
+  "block.mattsib.blackstone_stairs": "Blackstone Stairs",
+  "block.mattsib.blackstone_slab": "Blackstone Slab",
+  "block.mattsib.blackstone_button": "Blackstone Button",
+  "block.mattsib.blackstone_wall": "Blackstone Wall",
+  
   "creativetab.mattsblocks": "Matts Blocks"
 }

@@ -23,7 +23,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get());
                         pOutput.accept(ModBlocks.ROTTEN_FLESH_BLOCK.get());
                         pOutput.accept(ModBlocks.ENDER_PEARL_BLOCK.get());
-
+                        pOutput.accept(ModBlocks.NETHERRACK_BRICKS.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_BRICKS_STAIRS.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_BRICKS_SLAB.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_BRICKS_WALL.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_BRICKS_BUTTON.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_STAIRS.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_SLAB.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_WALL.get());
+                        pOutput.accept(ModBlocks.BLACKSTONE_BUTTON.get());
 
                     })
                     .build());
