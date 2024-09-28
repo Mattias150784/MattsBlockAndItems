@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattsib:block/blackstone_bricks_slab"
+    },
+    "type=double": {
+      "model": "mattsib:block/blackstone_bricks_slab"
+    },
+    "type=top": {
+      "model": "mattsib:block/blackstone_bricks_slab_top"
+    }
+  }
+}

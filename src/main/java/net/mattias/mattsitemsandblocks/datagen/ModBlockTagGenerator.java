@@ -32,14 +32,31 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.BLACKSTONE_STAIRS.get(),
                         ModBlocks.BLACKSTONE_SLAB.get(),
                         ModBlocks.BLACKSTONE_WALL.get(),
-                        ModBlocks.BLACKSTONE_BUTTON.get()
+                        ModBlocks.BLACKSTONE_BUTTON.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_WALL.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get(),
+                        ModBlocks.COPPER_STAIRS.get(),
+                        ModBlocks.COPPER_SLAB.get(),
+                        ModBlocks.COPPER_WALL.get(),
+                        ModBlocks.COPPER_BUTTON.get()
                 );
 
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.COPPER_BRICKS.get(),
-                ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get());
+                ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_WALL.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get(),
+                        ModBlocks.COPPER_WALL.get(),
+                        ModBlocks.COPPER_SLAB.get(),
+                        ModBlocks.COPPER_BUTTON.get(),
+                        ModBlocks.COPPER_STAIRS.get()
+                );
 
       /*  this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
 
@@ -53,8 +70,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.BLACKSTONE_BRICKS_WALL.get(),
-                     ModBlocks.BLACKSTONE_WALL.get()
-
+                        ModBlocks.BLACKSTONE_WALL.get(),
+                        ModBlocks.COPPER_WALL.get(),
+                        ModBlocks.OXIDIZED_CUT_COPPER_WALL.get()
                 );
 
 

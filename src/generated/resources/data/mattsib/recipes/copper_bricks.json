@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "pattern": [
+    "  ",
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "count": 4,
+    "item": "mattsib:copper_bricks"
+  },
+  "show_notification": true
+}

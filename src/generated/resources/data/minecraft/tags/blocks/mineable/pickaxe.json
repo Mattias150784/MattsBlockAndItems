@@ -1,0 +1,24 @@
+{
+  "values": [
+    "mattsib:black_stone_bricks",
+    "mattsib:copper_bricks",
+    "mattsib:oxidized_cut_copper_bricks",
+    "mattsib:netherrack_bricks",
+    "mattsib:blackstone_brick_stairs",
+    "mattsib:blackstone_bricks_slab",
+    "mattsib:blackstone_bricks_wall",
+    "mattsib:blackstone_bricks_button",
+    "mattsib:blackstone_stairs",
+    "mattsib:blackstone_slab",
+    "mattsib:blackstone_wall",
+    "mattsib:blackstone_button",
+    "mattsib:oxidized_cut_copper_stairs",
+    "mattsib:oxidized_cut_copper_slab",
+    "mattsib:oxidized_cut_copper_wall",
+    "mattsib:oxidized_cut_copper_button",
+    "mattsib:copper_stairs",
+    "mattsib:copper_slab",
+    "mattsib:copper_wall",
+    "mattsib:copper_button"
+  ]
+}

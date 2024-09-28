@@ -15,6 +15,16 @@
   "block.mattsib.blackstone_slab": "Blackstone Slab",
   "block.mattsib.blackstone_button": "Blackstone Button",
   "block.mattsib.blackstone_wall": "Blackstone Wall",
+
+  "block.mattsib.copper_stairs": "Copper Stairs",
+  "block.mattsib.copper_slab": "Copper Slab",
+  "block.mattsib.copper_button": "Copper Button",
+  "block.mattsib.copper_wall": "Copper Wall",
+
+  "block.mattsib.oxidized_cut_copper_stairs": "Oxidized Cut Copper Stairs",
+  "block.mattsib.oxidized_cut_copper_slab": "Oxidized Cut Copper Slab",
+  "block.mattsib.oxidized_cut_copper_button": "Oxidized Cut Copper Button",
+  "block.mattsib.oxidized_cut_copper_wall": "Oxidized Cut Copper Wall",
   
   "creativetab.mattsblocks": "Matts Blocks"
 }

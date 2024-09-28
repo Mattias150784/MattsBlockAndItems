@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "mattsib:copper_bricks"
+    }
+  },
+  "pattern": [
+    "  ",
+    "  ",
+    "B "
+  ],
+  "result": {
+    "item": "mattsib:copper_button"
+  },
+  "show_notification": true
+}

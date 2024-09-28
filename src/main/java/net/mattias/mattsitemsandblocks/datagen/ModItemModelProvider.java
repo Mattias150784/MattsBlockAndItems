@@ -28,11 +28,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.BLACKSTONE_BRICKS_STAIRS);
         evenSimplerBlockItem(ModBlocks.BLACKSTONE_BRICKS_SLAB);
 
-
         buttonItem(ModBlocks.BLACKSTONE_BUTTON, Blocks.BLACKSTONE);
         wallItem(ModBlocks.BLACKSTONE_WALL, Blocks.BLACKSTONE);
         evenSimplerBlockItem(ModBlocks.BLACKSTONE_STAIRS);
         evenSimplerBlockItem(ModBlocks.BLACKSTONE_SLAB);
+
+        buttonItem(ModBlocks.OXIDIZED_CUT_COPPER_BUTTON, ModBlocks.OXIDIZED_CUT_COPPER_BRICKS);
+        wallItem(ModBlocks.OXIDIZED_CUT_COPPER_WALL, ModBlocks.OXIDIZED_CUT_COPPER_BRICKS);
+        evenSimplerBlockItem(ModBlocks.OXIDIZED_CUT_COPPER_STAIRS);
+        evenSimplerBlockItem(ModBlocks.OXIDIZED_CUT_COPPER_SLAB);
+
+        buttonItem(ModBlocks.COPPER_BUTTON, ModBlocks.COPPER_BRICKS);
+        wallItem(ModBlocks.COPPER_WALL, ModBlocks.COPPER_BRICKS);
+        evenSimplerBlockItem(ModBlocks.COPPER_STAIRS);
+        evenSimplerBlockItem(ModBlocks.COPPER_SLAB);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "mattsib:block/oxidized_cut_copper_bricks"
+  }
+}

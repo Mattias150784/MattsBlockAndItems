@@ -66,6 +66,33 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACKSTONE_WALL = registerBlock("blackstone_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)));
 
+    public static final RegistryObject<Block> COPPER_STAIRS = registerBlock("copper_stairs",
+            () -> new StairBlock(() -> ModBlocks.BLACK_STONE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
+    public static final RegistryObject<Block> COPPER_SLAB = registerBlock("copper_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
+    public static final RegistryObject<Block> COPPER_BUTTON = registerBlock("copper_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON),
+                    BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> COPPER_WALL = registerBlock("copper_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
+    public static final RegistryObject<Block> OXIDIZED_CUT_COPPER_STAIRS = registerBlock("oxidized_cut_copper_stairs",
+            () -> new StairBlock(() -> ModBlocks.BLACK_STONE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OXIDIZED_CUT_COPPER)));
+
+    public static final RegistryObject<Block> OXIDIZED_CUT_COPPER_SLAB = registerBlock("oxidized_cut_copper_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OXIDIZED_CUT_COPPER)));
+
+    public static final RegistryObject<Block> OXIDIZED_CUT_COPPER_BUTTON = registerBlock("oxidized_cut_copper_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON),
+                    BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> OXIDIZED_CUT_COPPER_WALL = registerBlock("oxidized_cut_copper_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OXIDIZED_CUT_COPPER)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

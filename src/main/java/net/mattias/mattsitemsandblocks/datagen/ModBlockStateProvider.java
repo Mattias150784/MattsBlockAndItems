@@ -34,6 +34,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock(((ButtonBlock) ModBlocks.BLACKSTONE_BUTTON.get()), blockTexture(Blocks.BLACKSTONE));
         wallBlock(((WallBlock) ModBlocks.BLACKSTONE_WALL.get()), blockTexture(Blocks.BLACKSTONE));
 
+        stairsBlock(((StairBlock) ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get()), blockTexture(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get()), blockTexture(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()), blockTexture(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get()), blockTexture(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()));
+        wallBlock(((WallBlock) ModBlocks.OXIDIZED_CUT_COPPER_WALL.get()), blockTexture(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()));
+
+        stairsBlock(((StairBlock) ModBlocks.COPPER_STAIRS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.COPPER_SLAB.get()), blockTexture(Blocks.COPPER_BLOCK), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.COPPER_BUTTON.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        wallBlock(((WallBlock) ModBlocks.COPPER_WALL.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

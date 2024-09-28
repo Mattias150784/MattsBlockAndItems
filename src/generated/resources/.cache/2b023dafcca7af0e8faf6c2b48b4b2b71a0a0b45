@@ -1,0 +1,4 @@
+// 1.20.1	2024-09-27T20:41:21.6285025	Tags for minecraft:block mod id mattsib
+3dbdf5e09606fb89966da9e791e7ecb7cf2b86d7 data/minecraft/tags/blocks/mineable/pickaxe.json
+9decaff9b3c4e10d4429e711395455216ac4f004 data/minecraft/tags/blocks/needs_iron_tool.json
+64b2d191030cadaab0fdeaba7cc0c0839624d393 data/minecraft/tags/blocks/walls.json

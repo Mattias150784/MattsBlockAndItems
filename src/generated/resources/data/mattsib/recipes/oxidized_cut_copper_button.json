@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "mattsib:oxidized_cut_copper_bricks"
+    }
+  },
+  "pattern": [
+    "  ",
+    "  ",
+    "B "
+  ],
+  "result": {
+    "item": "mattsib:oxidized_cut_copper_button"
+  },
+  "show_notification": true
+}

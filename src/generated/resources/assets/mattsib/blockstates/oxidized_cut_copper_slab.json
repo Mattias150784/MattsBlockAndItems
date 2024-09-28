@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mattsib:block/oxidized_cut_copper_slab"
+    },
+    "type=double": {
+      "model": "mattsib:block/oxidized_cut_copper_bricks"
+    },
+    "type=top": {
+      "model": "mattsib:block/oxidized_cut_copper_slab_top"
+    }
+  }
+}

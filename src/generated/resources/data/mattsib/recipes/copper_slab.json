@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "mattsib:copper_slab"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "mattsib:copper_slab"
+  },
+  "show_notification": true
+}

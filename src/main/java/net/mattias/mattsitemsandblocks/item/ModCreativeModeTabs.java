@@ -32,6 +32,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BLACKSTONE_SLAB.get());
                         pOutput.accept(ModBlocks.BLACKSTONE_WALL.get());
                         pOutput.accept(ModBlocks.BLACKSTONE_BUTTON.get());
+                        pOutput.accept(ModBlocks.COPPER_STAIRS.get());
+                        pOutput.accept(ModBlocks.COPPER_SLAB.get());
+                        pOutput.accept(ModBlocks.COPPER_WALL.get());
+                        pOutput.accept(ModBlocks.COPPER_BUTTON.get());
+                        pOutput.accept(ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get());
+                        pOutput.accept(ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get());
+                        pOutput.accept(ModBlocks.OXIDIZED_CUT_COPPER_WALL.get());
+                        pOutput.accept(ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get());
 
                     })
                     .build());

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "mattsib:blackstone_wall"
+  },
+  "show_notification": true
+}

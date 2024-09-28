@@ -37,12 +37,24 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BLACKSTONE_STAIRS.get());
         this.dropSelf(ModBlocks.BLACKSTONE_WALL.get());
         this.dropSelf(ModBlocks.BLACKSTONE_BUTTON.get());
+        this.dropSelf(ModBlocks.COPPER_STAIRS.get());
+        this.dropSelf(ModBlocks.COPPER_WALL.get());
+        this.dropSelf(ModBlocks.COPPER_BUTTON.get());
+        this.dropSelf(ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get());
+        this.dropSelf(ModBlocks.OXIDIZED_CUT_COPPER_WALL.get());
+        this.dropSelf(ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get());
 
         this.add(ModBlocks.BLACKSTONE_BRICKS_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.BLACKSTONE_BRICKS_SLAB.get()));
 
         this.add(ModBlocks.BLACKSTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.BLACKSTONE_SLAB.get()));
+
+        this.add(ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get()));
+
+        this.add(ModBlocks.COPPER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.COPPER_SLAB.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

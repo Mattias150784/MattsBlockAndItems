@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "mattsib:blackstone_slab"
+  },
+  "show_notification": true
+}

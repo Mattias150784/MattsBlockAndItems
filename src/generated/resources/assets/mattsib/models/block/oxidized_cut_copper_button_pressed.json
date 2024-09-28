@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "mattsib:block/oxidized_cut_copper_bricks"
+  }
+}

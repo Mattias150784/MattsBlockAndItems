@@ -139,8 +139,71 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.BLACK_STONE_BRICKS.get()), has(ModBlocks.BLACK_STONE_BRICKS.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OXIDIZED_CUT_COPPER_STAIRS.get(), 4)
+                .pattern("B  ")
+                .pattern("BB ")
+                .pattern("BBB")
+                .define('B', ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()), has(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("BBB")
+                .define('B', ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get())
+                .unlockedBy(getHasName(ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get()), has(ModBlocks.OXIDIZED_CUT_COPPER_SLAB.get()))
+                .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OXIDIZED_CUT_COPPER_WALL.get(), 6)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()), has(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OXIDIZED_CUT_COPPER_BUTTON.get())
+                .pattern("  ")
+                .pattern("  ")
+                .pattern("B ")
+                .define('B', ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()), has(ModBlocks.OXIDIZED_CUT_COPPER_BRICKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COPPER_STAIRS.get(), 4)
+                .pattern("B  ")
+                .pattern("BB ")
+                .pattern("BBB")
+                .define('B', ModBlocks.COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.COPPER_BRICKS.get()), has(ModBlocks.COPPER_BRICKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COPPER_SLAB.get(), 6)
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("BBB")
+                .define('B', ModBlocks.COPPER_SLAB.get())
+                .unlockedBy(getHasName(ModBlocks.COPPER_SLAB.get()), has(ModBlocks.COPPER_SLAB.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COPPER_WALL.get(), 6)
+                .pattern("   ")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.COPPER_BRICKS.get()), has(ModBlocks.COPPER_BRICKS.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COPPER_BUTTON.get())
+                .pattern("  ")
+                .pattern("  ")
+                .pattern("B ")
+                .define('B', ModBlocks.COPPER_BRICKS.get())
+                .unlockedBy(getHasName(ModBlocks.COPPER_BRICKS.get()), has(ModBlocks.COPPER_BRICKS.get()))
+                .save(pWriter);
 
 
 

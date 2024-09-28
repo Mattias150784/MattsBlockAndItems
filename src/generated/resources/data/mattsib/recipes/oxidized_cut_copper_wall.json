@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "mattsib:oxidized_cut_copper_bricks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "item": "mattsib:oxidized_cut_copper_wall"
+  },
+  "show_notification": true
+}

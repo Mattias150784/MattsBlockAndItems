@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mattsib:block/oxidized_cut_copper_bricks",
+    "side": "mattsib:block/oxidized_cut_copper_bricks",
+    "top": "mattsib:block/oxidized_cut_copper_bricks"
+  }
+}

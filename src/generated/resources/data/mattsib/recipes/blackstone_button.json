@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "B  "
+  ],
+  "result": {
+    "item": "mattsib:blackstone_button"
+  },
+  "show_notification": true
+}
